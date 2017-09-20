@@ -1,0 +1,27 @@
+
+
+(1) Use any editor like vi or mcedit to write shell script.
+
+(2) After writing shell script set execute permission for your script as
+follows
+syntax: 
+chmod permission your-script-name
+
+Examples:
+$ chmod +x your-script-name
+$ chmod 755 your-script-name
+
+Note: This will set read write execute(7) permission for
+owner, for group and other permission is read and execute only(5).
+
+(3) Execute your script as
+syntax: 
+bash your-script-name
+sh your-script-name
+./your-script-name
+
+Examples:
+$ bash bar
+$ sh bar
+$ ./bar
+
